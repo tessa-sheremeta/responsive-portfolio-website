@@ -1,0 +1,534 @@
+
+/*------------------------------- General Styling ----------------------------------*/
+
+
+body {
+	background-color: white;
+}
+	
+
+.main,
+footer {
+	padding: 0 1rem;
+}
+
+
+.divider-line {
+	border-bottom: 3px solid #fb6470;
+	width: 76px;
+	margin: 0 auto;
+	padding-top: 1rem;
+	margin-bottom: 1.5rem;;
+}
+
+
+h2 {
+	font-size: 32px;
+	font-weight: 400;
+	color: #9c9c9c;
+	text-align: center;
+	padding: 2rem 0 0 0;
+}
+
+
+h3 {
+	color: #b8b8bd;
+	padding-bottom: 3rem;
+}
+
+.blurb {
+	padding-bottom: 2rem;
+	text-align: center;
+}
+
+
+
+a {
+	color: #b8b8bd;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fb6470;
+}
+
+
+
+button:hover {
+	color: #353541;
+}
+
+
+
+/*------------------- Top Section of Website, Nav bar and Header ---------------------*/
+
+
+/*---------- Top Navigation Bar -----------*/
+.top-nav-bar {
+	height: 90px;
+	background-color: #353541;
+	color: #b8b8bd;
+	padding-top: 1.5rem;
+}
+
+
+.list-top-nav {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.menu-icon {
+	padding-left: 1rem;
+	width: 50px;
+}
+
+
+path {
+	width: 4rem;
+}
+
+
+.contact {
+	padding-right: 1rem;
+}
+
+.email {
+	font-weight: bold;
+}
+
+.phone {
+	text-align: center;
+}
+
+
+
+/*--------- Main Profile Snapshot ---------*/
+
+header {
+	text-align: center;
+	background-color: #353541;
+	height: 550px;
+}
+
+
+.selfie {
+	width: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+
+h1 {
+	color: white;
+	font-size: 48px;
+	font-weight: 100;
+	padding: 0 1rem 1rem 1rem;
+
+}
+
+
+.specialty {
+	padding-bottom: 2rem;
+}
+
+.new-projects {
+	color: white;
+	background-color: #fb6470;
+	border: none;
+	border-radius: 5px;
+	padding: 1rem 3rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+
+.portfolio {
+	color: white;
+	background-color: #32bec7;
+	border: none;
+	border-radius: 5px;
+	padding: 1rem 4rem;
+}
+
+
+
+
+/*-------------------------------- Main Content ---------------------------*/
+
+
+/*--------- Skills Summary ---------*/
+
+.skills-summary {
+	text-align: center;
+}
+
+
+.percent {
+	padding: 0 1rem 1rem 1rem;
+	width: 17rem;
+}
+
+.hidden {
+	display: ;
+}
+
+
+
+
+/*--------- Where To Find Me ---------*/
+
+.socials-logos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 3rem;
+}
+
+.brand{
+	width: 75px;
+	margin: 0 2.6rem 0 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------- Work Experience ---------*/
+
+
+.work-experience {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 4rem;
+}
+
+.bubble-blurb {
+	color: white;
+}
+
+.work-experience .blurb {
+	padding: 0.5rem 0 2rem 0;
+}
+
+
+.work-experience h5 {
+	color: white;
+}
+
+
+
+.bubble {
+	padding: 1rem 1.5rem 1.8rem 1.5rem;
+	margin: 0 1rem 1rem 1rem;
+	max-width: 350px;
+}
+
+.bubble h4 {
+	font-size: 22px;
+	padding-bottom: 0.5rem;;
+}
+
+.speech-bubble-green {
+    position: relative;
+    background: #85ce40;
+	border-radius: .4em;
+	margin-left: 1.8rem;
+}
+
+.speech-bubble-green:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 33px solid transparent;
+    border-right-color: #85ce40;
+    border-left: 0;
+    border-top: 0;
+    margin-top: -16.5px;
+    margin-left: -33px;
+}
+
+.speech-bubble-blue {
+    position: relative;
+    background: #27a8e4;
+	border-radius: .4em;
+	margin-left: 1.8rem;
+}
+
+.speech-bubble-blue:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 33px solid transparent;
+    border-left-color: #27a8e4;
+    border-right: 0;
+    border-top: 0;
+    margin-top: -16.5px;
+    margin-right: -33px;
+}
+
+.column-one {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.column-two {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+
+/*----------- Education -----------*/
+
+
+.right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.education {
+	background-color: #f4f1f4;
+	padding: 0 0 2rem 0;
+}
+
+
+.education .blurb {
+	padding: 0 1.2rem 1rem 1.2rem;
+}
+
+
+/* The main title of the education section */
+.edu-main-title {
+	color: #626269;
+}
+
+
+.edu-name {
+	color: white;
+}
+
+h3 {
+	padding: 0;
+}
+
+.website {
+	color: #8e8e93;
+	padding-top: 0.3rem;;
+}
+
+.school-info {
+	color: #626269;
+}
+
+
+h4 {
+	color: white;
+	font-weight: 400;
+	padding-top: 0.8rem;
+}
+
+span {
+	color: #fb6470;
+	font-weight: 400;
+}
+
+
+.education-card {
+	background-color: #353541;
+	margin-bottom: 2rem;
+	padding: 1.5rem;
+	border-radius: 10px;
+	margin: 1rem 1rem;
+}
+
+
+
+
+/* -----------------------------Footer and Contact Form---------------------------- */
+
+
+/*--------- Get In Touch ---------*/
+
+
+footer {
+	text-align: center;
+	padding-bottom: 13rem;
+}
+
+
+.getintouch-heading {
+	padding-top: 7rem;
+}
+
+
+form {
+	max-width: 480px;
+	margin: 0 auto;
+}
+
+
+
+/* The titles above each box */
+.form-parent {
+	text-align: left;
+	margin-left: 0.6rem;
+}
+
+
+label {
+	padding-bottom: 0.7rem;
+}
+
+
+input {
+	width: 100%;
+	padding: 0.5rem 0;
+	margin-bottom: 1rem;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 1.5rem;
+	max-height: 10rem;
+}
+
+
+/* Button */
+.get-in-touch {
+	color: white;
+	background-color: #fb6470;
+	border: none;
+	border-radius: 5px;
+	padding: 1rem 3rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
+
+
+/*---------------------------- Media Queries --------------------------*/ 
+
+
+@media(min-width:790px) {
+	
+
+	
+	.percent-box {
+		width: 25%;
+		display: inline;
+	}
+
+	.percent {
+		margin: 4rem 1rem 5rem 1rem;
+	}
+	
+
+
+	.phone {
+		font-size: 24px;
+		margin-top: 0.3rem;
+	}
+
+
+	header {
+		height: 450px;
+	}
+
+	.new-projects {
+		margin: 0 auto;
+		margin: 0 0.5rem 0 0;
+	}
+
+	.portfolio {
+		margin: 0 0 0 0.5rem;
+	}
+
+
+
+	.header-buttons {
+		display: flex;
+		justify-content: center;
+	}
+
+	.where-to-find-me {
+		background-color: #889ea8;
+		padding: 1rem 0 1rem 0;
+	}
+	
+	.wtfm-heading {
+		color: #ffffff;
+		padding-bottom: 2rem;
+		font-weight: 700;
+	}
+
+	.wtfm-blurb {
+		color: #d3e2e7;
+		padding: 2rem 1rem 4rem 1rem;
+	}
+
+
+	.divider-line {
+		display: none;
+	}
+
+	h2 {
+		padding-bottom: 2rem;
+		font-weight: 700;
+	}
+	
+	.education-card {
+		max-width: 500px;
+	}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
